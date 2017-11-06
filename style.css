@@ -10,7 +10,7 @@ body {
 #board {
   background-color: #323232;
   height: 660px;
-  width: 740px;
+  width: 745px;
   margin: auto;
   border-radius: 20px; }
 
@@ -59,13 +59,15 @@ body {
 #aA {
   border-radius: 50px;
   margin-left: 5px;
-  margin-top: 5px;
-  background-color: red; }
+  margin-top: 5px; }
+  #aA:hover {
+    background-color: red; }
 
 #aB {
   border-radius: 50px;
-  margin-left: 1px;
-  background-color: green; }
+  margin-left: 1px; }
+  #aB:hover {
+    background-color: green; }
 
 #aC {
   border-radius: 50px;
