@@ -435,9 +435,62 @@ $(Document).ready(function(){
 
         };
 
+
+        var endGameCheck = function(){
+            
+            /// ---- Row f checks  --///
+            if(fAValue != 0 && fBValue == fAValue && fBValue == fCValue && fCValue == fDValue){
+                endGame(fAValue);
+            }
+
+            /// ---- Row e checks  --///
+            if(eAValue != 0 && eBValue == eAValue && eBValue == eCValue && eCValue == eDValue){
+                endGame(eAValue);
+            }
+
+            /// ---- Row d checks  --///
+            if(dAValue != 0 && dBValue == dAValue && dBValue == dCValue && dCValue == dDValue){
+                endGame(dAValue);
+            }
+
+            /// ---- Row c checks  --///
+            if(cAValue != 0 && cBValue == cAValue && cBValue == cCValue && cCValue == cDValue){
+                endGame(cAValue);
+            }
+
+            /// ---- Row b checks  --///
+            if(bAValue != 0 && bBValue == bAValue && bBValue == bCValue && bCValue == bDValue){
+                endGame(bAValue);
+            }
+
+            /// ---- Row a checks  --///
+            if(aAValue != 0 && aBValue == aAValue && aBValue == aCValue && aCValue == aDValue){
+                endGame(aAValue);
+            }
+
+
+
+        };
+
+
+
+        var endGame = function(winningTeam){
+
+            console.log(winningTeam);
+
+
+        };
+
+
+
         $("#onePlayer").click(function(){
                 $("#startMenu").css('display', 'none');
         });
+
+
+
+
+
 
         //#aA is clicked  
         $("#aA").click(function(){
