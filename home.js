@@ -55,6 +55,9 @@ $(Document).ready(function(){
         var viableSpace = function(space, spaceValue){
             if (spaceValue == 0 ){
 
+                ///////////////////////////////////
+                ///              *A           /////
+                ///////////////////////////////////
                 if (space == "#fA"){
                     if (eAValue === 0){
                         return true;
@@ -97,6 +100,295 @@ $(Document).ready(function(){
                     else
                     return false;
                 }
+
+                /////////////////////////////////////////////
+                ///                *B                    ////
+                /////////////////////////////////////////////
+                if (space == "#fB"){
+                    if (eBValue === 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#eB"){
+                    if (dBValue === 0 && fBValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#dB"){
+                    if (cBValue === 0 && eBValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#cB"){
+                    if (bBValue === 0 && dBValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#bB"){
+                    if (aBValue === 0 && cBValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#aB" ){
+                    if ( bBValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+
+
+                /////////////////////////////////////////////
+                ///                 *C                ///////
+                /////////////////////////////////////////////
+                if (space == "#fC"){
+                    if (eCValue === 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#eC"){
+                    if (dCValue === 0 && fCValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#dC"){
+                    if (cCValue === 0 && eCValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#cC"){
+                    if (bCValue === 0 && dCValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#bC"){
+                    if (aCValue === 0 && cCValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#aC" ){
+                    if ( bCValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+
+
+
+                /////////////////////////////////////////////
+                ///                 *D                   ////
+                /////////////////////////////////////////////
+                if (space == "#fD"){
+                    if (eDValue === 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#eD"){
+                    if (dDValue === 0 && fDValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#dD"){
+                    if (cDValue === 0 && eDValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#cD"){
+                    if (bDValue === 0 && dDValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#bD"){
+                    if (aDValue === 0 && cDValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#aD" ){
+                    if ( bDValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+
+
+                /////////////////////////////////////////////
+                ///                *E                    ////
+                /////////////////////////////////////////////
+                if (space == "#fE"){
+                    if (eEValue === 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#eE"){
+                    if (dEValue === 0 && fEValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#dE"){
+                    if (cEValue === 0 && eEValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#cE"){
+                    if (bEValue === 0 && dEValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#bE"){
+                    if (aEValue === 0 && cEValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#aE" ){
+                    if ( bEValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+
+
+                /////////////////////////////////////////////
+                ///                 *F                   ////
+                /////////////////////////////////////////////
+                if (space == "#fF"){
+                    if (eFValue === 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#eF"){
+                    if (dFValue === 0 && fFValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#dF"){
+                    if (cFValue === 0 && eFValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#cF"){
+                    if (bFValue === 0 && dFValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#bF"){
+                    if (aFValue === 0 && cFValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#aF" ){
+                    if ( bFValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+
+
+
+                /////////////////////////////////////////////
+                //////              *G                 /////
+                /////////////////////////////////////////////
+                if (space == "#fG"){
+                    if (eGValue === 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#eG"){
+                    if (dGValue === 0 && fGValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#dG"){
+                    if (cGValue === 0 && eGValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#cG"){
+                    if (bGValue === 0 && dGValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#bG"){
+                    if (aGValue === 0 && cGValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+                else if (space == "#aG" ){
+                    if ( bGValue !== 0){
+                        return true;
+                    }
+                    else
+                    return false;
+                }
+
+
+
+
+
+
 
             }
 
@@ -145,7 +437,7 @@ $(Document).ready(function(){
 
         $("#onePlayer").click(function(){
                 $("#startMenu").css('display', 'none');
-                });
+        });
 
         //#aA is clicked  
         $("#aA").click(function(){
